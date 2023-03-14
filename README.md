@@ -32,3 +32,9 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+## Contributors
+
+* **Kurunchi CHANDRA** - [kchandra77](https://github.com/kchandra77)
+* **Thushanth PATHMASEELAN** - [pthushanth](https://github.com/pthushanth)
+* **Ronan Trouillard** - [ronantr](https://github.com/ronantr)
