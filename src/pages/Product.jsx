@@ -1,5 +1,10 @@
+import { A } from "@solidjs/router";
+
 export default function Product() {
-    return <h1>Modele classe A </h1>;
+    return (
+     <h1> Product page</h1>
+    );
+
 }
 
 
