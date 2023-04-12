@@ -14,6 +14,7 @@ function Home() {
               title="Audi RS7"
               description="The ultimate luxury sports car, the RS7 combines breathtaking performance with sleek and elegant design."
               button="Learn More"
+              // link="/audiRS7"
               positionImage="left"
             />
             <SectionLayout
@@ -65,7 +66,9 @@ function Home() {
                   range, performance, and technology features.
                 </p>
                 <button className="button is-primary is-inverted is-outlined">
+                  <a href="/product">
                   Learn More
+                  </a>
                 </button>
               </div>
               <div className="column">
