@@ -1,6 +1,7 @@
 import SectionLayout from "../../components/SectionLayout";
 import Header from "./Header";
 import "./home.css";
+import { latestCars } from "../../database/data";
 function Home() {
   return (
     <>
@@ -9,35 +10,17 @@ function Home() {
       <div className="landing-page">
         <section className="section">
           <div className="container">
-            <SectionLayout
-              image="/src/assets/images/2024.png"
-              title="Audi RS7"
-              description="The ultimate luxury sports car, the RS7 combines breathtaking performance with sleek and elegant design."
-              button="Learn More"
-              // link="/audiRS7"
-              positionImage="left"
-            />
-            <SectionLayout
-              image="/src/assets/images/2024.png"
-              title="Audi Q7"
-              description="The Audi Q7 is the perfect luxury SUV, combining spaciousness, versatility, and advanced safety features."
-              button="Learn More"
-              positionImage="right"
-            />
-            <SectionLayout
-              image="/src/assets/images/2024.png"
-              title="Audi Aicon"
-              description="The Audi Aicon is a fully electric concept car that demonstrates the brand's commitment to sustainable mobility."
-              button="Learn More"
-              positionImage="left"
-            />
-            <SectionLayout
-              image="/src/assets/images/2024.png"
-              title="Audi RS 7"
-              description="The Audi RS 7 is a high-performance luxury car that offers exhilarating driving dynamics and advanced technology features."
-              button="Learn More"
-              positionImage="right"
-            />
+            {latestCars.map((car, index) => {
+              return (
+                <SectionLayout
+                  image={car.image}
+                  title={car.title}
+                  description={car.description}
+                  button="Learn More"
+                  positionImage={index % 2 === 0 ? "left" : "right"}
+                />
+              );
+            })}
           </div>
         </section>
 
@@ -66,9 +49,7 @@ function Home() {
                   range, performance, and technology features.
                 </p>
                 <button className="button is-primary is-inverted is-outlined">
-                  <a href="/product">
-                  Learn More
-                  </a>
+                  <a href="/product">Learn More</a>
                 </button>
               </div>
               <div className="column">
