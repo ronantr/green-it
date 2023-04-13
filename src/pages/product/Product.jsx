@@ -149,16 +149,16 @@ export default function Product() {
             <div class="column is-8">
             <picture id="Audi">
               <source media="(max-width: 633px)"
-              srcset="/images/q3_color.webp"/>
+              srcset="/images/q3_color_4.avif"/>
               <source media="(max-width: 833px)"
-              srcset="/images/q3_color.webp"/>
+              srcset="/images/q3_color_4.avif"/>
               <source media="(max-width: 1033px)"
-              srcset="/images/q3_color.webp"/>
+              srcset="/images/q3_color_1.avif"/>
               <source media="(max-width: 1133px)"
-              srcset="/images/q3_color.webp"/>
+              srcset="/images/q3_color_1.avif"/>
               <source media="(min-width: 1134px)"
-              srcset="/images/q3_color.webp"/>
-              <img src="/images/q3_color.webp" alt="Your image" />
+              srcset="/images/q3_color_1.avif"/>
+              <img src="/images/q3_color_1.avif" alt="Your image" />
             </picture>
             </div>
           </div>
