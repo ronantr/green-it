@@ -6,6 +6,7 @@ import AudiRS7 from "./pages/product/AudiRS7";
 import Home from "./pages/home/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Confirmation from "./pages/Confirmation";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" component={Home} />
         <Route path="/product" component={Product} />
         <Route path="/audirs7" component={AudiRS7} />
+        <Route path="/confirmation" component={Confirmation} />
       </Routes>
 
       <Footer />

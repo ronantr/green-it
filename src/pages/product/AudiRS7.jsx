@@ -1,9 +1,19 @@
 import "./style.css";
 import { createEffect, createSignal } from "solid-js";
 import CountUp from "../../components/CountUp";
-
+import ReservationModal from "../../components/ReservationModal";
 export default function AudiRS7() {
   const [color, setColor] = createSignal("black");
+  const [isModalOpen, setIsModalOpen] = createSignal(false);
+
+  const handleOpenModal = () => {
+    console.log("test");
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
 
   const changeColor = (e) => {
     let color = e.target ? e.target.value : e;
@@ -95,6 +105,19 @@ export default function AudiRS7() {
               alt=""
             />
           </div>
+        </div>
+        <div class="is-flex  is-justify-content-center">
+          <button
+            class="button is-rounded m-2 is-primary "
+            style={{
+              "max-width": "200px",
+            }}
+            onClick={handleOpenModal}
+          >
+            Réserver maintenant
+          </button>
+          {console.log(isModalOpen())}
+          {isModalOpen() && <ReservationModal handleClose={handleCloseModal} />}
         </div>
       </div>
       <div class="hero is-fullheight has-background">
