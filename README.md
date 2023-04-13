@@ -1,40 +1,83 @@
-## Usage
+# Green-IT
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+This is a starter Green-IT for creating Solid.js applications using Vite.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Installation
 
-```bash
-$ npm install # or pnpm install or yarn install
+To use this template, first clone the repository:
+
+```sh
+git clone https://github.com/ronantr/green-it.git
+```
+Then navigate into the project directory and install the dependencies:
+
+```sh
+cd green-it
+npm install
+```
+or
+```sh
+cd green-it
+make install
+```
+Usage
+To start a development server, run:
+
+```sh
+npm run dev
+```
+or
+```sh
+make start
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+To build the application for production, run:
 
-## Available Scripts
+```sh
+npm run build
+```
+or
+```sh
+make build
+```
+To preview the production build locally, run:
 
-In the project directory, you can run:
+```sh
+npm run serve
+```
+or
+```sh
+make serve
+```
 
-### `npm dev` or `npm start`
+## License
+This project is licensed under the MIT License.
+ 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I hope this is more helpful. Let me know if you have any other questions.
 
-The page will reload if you make edits.<br>
 
-### `npm run build`
+## Dependencies
+This template uses the following dependencies:
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+- [@solidjs/router](https://www.npmjs.com/package/@solidjs/router) v0.8.0
+- [bulma](https://www.npmjs.com/package/bulma) v0.9.4
+- [solid-js](https://www.npmjs.com/package/solid-js) v1.6.10
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Dev Dependencies
+This template uses the following dev dependencies:
 
-## Deployment
+- [solid-app-router](https://www.npmjs.com/package/solid-app-router) v0.4.2
+- [vite](https://www.npmjs.com/package/vite) v4.1.1
+- [vite-plugin-solid](https://www.npmjs.com/package/vite-plugin-solid) v2.5.0
+## License
+This project is licensed under the terms of the MIT License.
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
 
 ## Contributors
 
 * **Kurunchi CHANDRA** - [kchandra77](https://github.com/kchandra77)
 * **Thushanth PATHMASEELAN** - [pthushanth](https://github.com/pthushanth)
 * **Ronan Trouillard** - [ronantr](https://github.com/ronantr)
+
