@@ -119,6 +119,15 @@ export default function AudiRS7() {
       <div class="hero is-fullheight has-background">
         <div class="container mt-4 mb-4">
           <div class="columns is-vcentered">
+            <div class="column is-8">
+              <video autoplay loop muted>
+                <source
+                  src="/src/assets/images/Volant_audi_q3.mp4"
+                  type="video/mp4"
+                />
+                <img src="fallback.jpg" alt="Fallback image" />
+              </video>
+            </div>
             <div class="column is-4 ">
               <h2 class="title is-2 has-text-left has-text-white">
                 Un écrin digital et connecté
@@ -129,22 +138,13 @@ export default function AudiRS7() {
                 multifonctions.
               </p>
             </div>
-            <div class="column is-8">
-              <video autoplay loop muted>
-                <source
-                  src="/src/assets/images/Volant_audi_q3.mp4"
-                  type="video/mp4"
-                />
-                <img src="fallback.jpg" alt="Fallback image" />
-              </video>
-            </div>
           </div>
         </div>
       </div>
 
       <section
-        class="section is-fullheight has-background-black"
-        style={{ padding: 0 }}
+        class="section is-fullheight has-background-black pt-6 pb-6 "
+        style={{ "padding-left": 0, "padding-right": 0 }}
       >
         <div>
           <img
@@ -181,37 +181,6 @@ export default function AudiRS7() {
           </div>
         </div>
       </section>
-
-      <div class="hero is-fullheight has-background">
-        <img
-          alt="Audi"
-          class="hero-background is-transparent"
-          src="https://www.audi.fr/content/dam/nemo/fr/Gamme/Q3/Q3/refonte/1920x1080_Q3_welcom_10102022.jpg?imwidth=1440"
-        />
-        <div class="hero-body">
-          <div class="container is -flex is-flex-direction-column is-justify-content-space-between  has-text-centered">
-            <div class="col-md-6 order-md-2">
-              <div class="content">
-                <h2 class="title is-4 has-text-white">
-                  {" "}
-                  Le SUV Compact familial
-                </h2>
-                <p class="has-text-white">
-                  Une calandre Singleframe octogonale, des ailes musclées, des
-                  optiques de phares affûtées... le SUV Compact Audi s’affirme
-                  avec une deuxième génération au design audacieux. A
-                  l’intérieur, une véritable révolution s’opère avec une armada
-                  technologique : tableau de bord digital, écran tactile,
-                  commande vocale naturelle, aides à la conduite... Plus
-                  dynamique que sa devancière, l’Audi Q3 devient aussi plus
-                  familiale avec une plus grande habitabilité et un volume de
-                  coffre plus généreux.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* ------------------ */}
     </div>
