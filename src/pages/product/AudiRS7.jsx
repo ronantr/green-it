@@ -1,6 +1,6 @@
-import { A } from "@solidjs/router";
 import "./style.css";
 import { createEffect, createSignal } from "solid-js";
+import CountUp from "../../components/CountUp";
 
 export default function AudiRS7() {
   const [color, setColor] = createSignal("black");
@@ -31,15 +31,21 @@ export default function AudiRS7() {
           style={{ marginBottom: "10px" }}
         >
           <div class="statistic mx-6">
-            <div class="title is-4 has-text-white">190 ch</div>
+            <div class="title is-4 has-text-white">
+              <CountUp countTo={190} />
+            </div>
             <div class="title is-7 has-text-white">Puissance</div>
           </div>
           <div class="statistic mx-6">
-            <div class="title is-4 has-text-white">7,4 s</div>
+            <div class="title is-4 has-text-white">
+              <CountUp countTo={100} /> s
+            </div>
             <div class="title is-7 has-text-white">0 à 100km/h</div>
           </div>
           <div class="statistic mx-6">
-            <div class="title is-4 has-text-white">220 km/h</div>
+            <div class="title is-4 has-text-white">
+              <CountUp countTo={220} />
+            </div>
             <div class="title is-7 has-text-white">Vitesse maximale</div>
           </div>
         </div>
