@@ -13,28 +13,35 @@
   .hero-background.is-transparent {
     opacity: 0.8;
   }
-
-  .audi-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
   
-  .audi-content {
-    margin: 100px;
+  .image-text {
     flex: 1;
     padding: 20px;
   }
   
-  .audi-image {
+  .image-text img {
+    width: 100%;
+  }
+  
+  .text-image {
     flex: 1;
     padding: 20px;
-    margin: 10px; 
   }
   
-  .audi-image img {
-    width: 70%;
+  .text-image h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   
+  .text-image p {
+    margin-bottom: 20px;
+  }
+  
+  .text-image a {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
   

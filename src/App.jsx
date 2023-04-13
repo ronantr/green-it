@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Confirmation from "./pages/Confirmation";
 
+import AboutUs from "./pages/about/AboutUs";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" component={Home} />
         <Route path="/audi-q3" component={Product} />
         <Route path="/confirmation" component={Confirmation} />
+        <Route path="/aboutus" component={AboutUs} />
       </Routes>
 
       <Footer />

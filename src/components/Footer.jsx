@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer class="footer pb-0">
-      <div class="container">
+    <footer class="footer pb-0 mt-4 has-background-black">
+      <div class="container has-text-white">
         <div class="columns">
           <div class="column is-one-third">
-            <p class="subtitle is-5 has-text-weight-bold">Nous contacter</p>
+            <p class="subtitle is-5 has-text-weight-bold has-text-white">Nous contacter</p>
             <p class="is-size-6">
               123 rue principale
               <br />
@@ -16,13 +16,13 @@ export default function Footer() {
             </p>
           </div>
           <div class="column is-one-third">
-            <p class="subtitle is-5 has-text-weight-bold">Liens</p>
+            <p class="subtitle is-5 has-text-weight-bold has-text-white">Liens</p>
             <ul>
               <li>
-                <a href="#">Accueil</a>
+                <a href="/">Accueil</a>
               </li>
               <li>
-                <a href="#">À propos de nous</a>
+                <a href="/aboutus">À propos de nous</a>
               </li>
               <li>
                 <a href="#">Modèles</a>
@@ -36,7 +36,7 @@ export default function Footer() {
             </ul>
           </div>
           <div class="column is-one-third">
-            <p class="subtitle is-5 has-text-weight-bold">Nous suivre</p>
+            <p class="subtitle is-5 has-text-weight-bold has-text-white">Nous suivre</p>
             <div class="field is-grouped">
               <div class="control">
                 <a
