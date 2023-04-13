@@ -50,11 +50,6 @@ or
 make serve
 ```
 
-## License
-This project is licensed under the MIT License.
- 
-
-I hope this is more helpful. Let me know if you have any other questions.
 
 
 ## Dependencies
@@ -70,8 +65,12 @@ This template uses the following dev dependencies:
 - [solid-app-router](https://www.npmjs.com/package/solid-app-router) v0.4.2
 - [vite](https://www.npmjs.com/package/vite) v4.1.1
 - [vite-plugin-solid](https://www.npmjs.com/package/vite-plugin-solid) v2.5.0
+- 
 ## License
-This project is licensed under the terms of the MIT License.
+This project is licensed under the MIT License.
+ 
+
+I hope this is more helpful. Let me know if you have any other questions.
 
 
 
