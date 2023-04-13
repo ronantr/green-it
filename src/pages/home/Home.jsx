@@ -39,25 +39,17 @@ function Home() {
           </div>
         </section>
 
-        <section className="section">
-          <div className="container">
-            <div className="columns">
-              <div className="column">
-                <h3 className="title is-3">Audi E-Tron</h3>
-                <p>
-                  The Audi E-Tron is a fully electric SUV that offers impressive
-                  range, performance, and technology features.
-                </p>
-                <button className="button is-primary is-inverted is-outlined">
-                  <a href="/product">Learn More</a>
-                </button>
-              </div>
-              <div className="column">
-                <img src="https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/e-tron/e-tron-sportback/my-2021/192" />
-              </div>
-            </div>
+            
+        <section class="audi-section">
+          <div class="audi-content">
+            <h2 className="title is-2 has-text-centered">La responsabilité sociale au coeur du design Audi</h2>
+            <p>Le futur nous anime, la durabilité aussi. Chez Audi, nous envisageons le design comme un outil nécessaire pour relever les grands défis mondiaux.</p>
+          </div>
+          <div class="audi-image">
+            <img src="https://www.audi.fr/dam/nemo/fr/Teasers-Homepage/2023/framed-1-1/885x885_Responsabilite_Sociale_31032023.png?imwidth=662" alt="Audi" />
           </div>
         </section>
+
         <section className="section is-dark">
           <div className="container">
             <h2 className="title is-2 has-text-centered">
@@ -74,6 +66,8 @@ function Home() {
                       />
                     </figure>
                   </div>
+
+
                   <div className="card-content">
                     <div className="content">
                       <h3 className="title is-3">Audi A3</h3>
