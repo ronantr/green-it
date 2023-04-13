@@ -1,16 +1,40 @@
 import { A } from "@solidjs/router";
+import { onMount } from "solid-js";
 
 export default function Navbar() {
+  onMount(() => {
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(
+      document.querySelectorAll(".navbar-burger"),
+      0
+    );
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+      // Add a click event on each of them
+      $navbarBurgers.forEach((el) => {
+        el.addEventListener("click", () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle("is-active");
+          $target.classList.toggle("is-active");
+        });
+      });
+    }
+  });
+
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar is-light is-transparent"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
-          <img
-            src="https://logohistory.net/wp-content/uploads/2023/01/Audi-Logo.svg"
-            width="112"
-            height="28"
-            alt="Audi"
-          />
+          <img src="/images/logo.svg" width="112" height="28" alt="Audi" />
         </a>
         <a
           role="button"
@@ -24,9 +48,8 @@ export default function Navbar() {
           <span aria-hidden="true"></span>
         </a>
       </div>
-
-      <div id="navbarBasicExample" className="navbar-menu">
-        <div className="navbar-end">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
           <A className="navbar-item" href="/audi-q3">
             Audi Q3
           </A>
