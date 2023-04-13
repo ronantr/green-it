@@ -170,7 +170,7 @@ export default function Product() {
             <div class="column is-8">
               <video autoplay loop muted>
                 <source src="/videos/Volant_audi_q3.mp4" type="video/mp4" />
-                <img src="fallback.avif" alt="Fallback image" />
+                <img src="images/fallback.avif" alt="Fallback image" />
               </video>
             </div>
             <div class="column is-4 ">
