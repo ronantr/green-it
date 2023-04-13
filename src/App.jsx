@@ -2,7 +2,6 @@ import logo from "./logo.svg";
 import styles from "./App.module.css";
 import { Routes, Route, Router } from "@solidjs/router";
 import Product from "./pages/product/Product";
-import AudiRS7 from "./pages/product/AudiRS7";
 import Home from "./pages/home/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -18,8 +17,7 @@ function App() {
       <Routes>
         <Route path="/" component={Home} />
         <Route path="/home" component={Home} />
-        <Route path="/product" component={Product} />
-        <Route path="/audirs7" component={AudiRS7} />
+        <Route path="/audi-q3" component={Product} />
         <Route path="/confirmation" component={Confirmation} />
       </Routes>
 
