@@ -36,48 +36,6 @@ export default function Footer() {
             </ul>
           </div>
           <div class="column is-one-third">
-            <p class="subtitle is-5 has-text-weight-bold has-text-white">Nous suivre</p>
-            <div class="field is-grouped">
-              <div class="control">
-                <a
-                  class="button is-small is-link is-outlined"
-                  href="#"
-                  style={{ border: 0 }}
-                >
-                  <img
-                    src="/images/facebook.png"
-                    alt="Facebook"
-                    style={{ width: "40px" }}
-                  />
-                </a>
-              </div>
-              <div class="control">
-                <a
-                  class="button is-small is-link is-outlined"
-                  href="#"
-                  style={{ border: 0 }}
-                >
-                  <img
-                    src="/images/twitter.png"
-                    alt="Twitter"
-                    style={{ width: "40px" }}
-                  />
-                </a>
-              </div>
-              <div class="control">
-                <a
-                  class="button is-small is-link is-outlined"
-                  href="#"
-                  style={{ border: 0 }}
-                >
-                  <img
-                    src="/images/instagram.png"
-                    alt="Instagram"
-                    style={{ width: "40px" }}
-                  />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
         <hr />
