@@ -34,19 +34,25 @@ export default function AudiRS7() {
             <div class="title is-4 has-text-white">
               <CountUp countTo={190} />
             </div>
-            <div class="title is-7 has-text-white">Puissance</div>
+            <div class="is-size-6 has-text-white has-text-weight-bold">
+              Puissance
+            </div>
           </div>
           <div class="statistic mx-6">
             <div class="title is-4 has-text-white">
               <CountUp countTo={100} /> s
             </div>
-            <div class="title is-7 has-text-white">0 à 100km/h</div>
+            <div class="is-size-6 has-text-white has-text-weight-bold">
+              0 à 100km/h
+            </div>
           </div>
           <div class="statistic mx-6">
             <div class="title is-4 has-text-white">
               <CountUp countTo={220} />
             </div>
-            <div class="title is-7 has-text-white">Vitesse maximale</div>
+            <div class="is-size-6 has-text-white has-text-weight-bold">
+              Vitesse maximale
+            </div>
           </div>
         </div>
       </div>
