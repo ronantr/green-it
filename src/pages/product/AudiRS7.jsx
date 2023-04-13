@@ -2,6 +2,7 @@ import "./style.css";
 import { createEffect, createSignal } from "solid-js";
 import CountUp from "../../components/CountUp";
 
+import carColorImage from "../../assets/images/color-change-car-base.png";
 export default function AudiRS7() {
   const [color, setColor] = createSignal("black");
 
@@ -91,7 +92,7 @@ export default function AudiRS7() {
           >
             <img
               // src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/13764/color-change-car-base.png"
-              src="/src/assets/images/color-change-car-base.png"
+              src={carColorImage}
               alt=""
             />
           </div>
@@ -111,7 +112,7 @@ export default function AudiRS7() {
               </p>
             </div>
             <div class="column is-8">
-              <img src="./src/assets/images/q3_color.webp" alt="Your image" />
+              <img src=".assets/images/q3_color.webp" alt="Your image" />
             </div>
           </div>
         </div>
@@ -122,7 +123,7 @@ export default function AudiRS7() {
             <div class="column is-8">
               <video autoplay loop muted>
                 <source
-                  src="/src/assets/images/Volant_audi_q3.mp4"
+                  src="assets/images/Volant_audi_q3.mp4"
                   type="video/mp4"
                 />
                 <img src="fallback.jpg" alt="Fallback image" />
@@ -148,7 +149,7 @@ export default function AudiRS7() {
       >
         <div>
           <img
-            src="./src/assets/images/Q3_phare.webp"
+            src=".assets/images/Q3_phare.webp"
             alt="Your image"
             style={{
               "max-height": "600px",
