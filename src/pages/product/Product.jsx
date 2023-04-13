@@ -164,7 +164,7 @@ export default function Product() {
           </div>
         </div>
       </div>
-      <div class="hero  has-background">
+      <div class="hero pb-5 has-background">
         <div class="container mt-4 mb-4">
           <div class="columns is-vcentered">
             <div class="column is-8">

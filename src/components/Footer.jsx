@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer class="footer pb-0 mt-4 has-background-black">
+    <footer class="footer pb-0 pt-4 has-background-black">
       <div class="container has-text-white">
         <div class="columns">
           <div class="column is-one-third">
