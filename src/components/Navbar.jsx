@@ -13,6 +13,7 @@ export default function Navbar() {
               <span aria-hidden="true"></span>
             </a>
           </div>
+          
 
           <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-end">

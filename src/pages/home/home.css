@@ -13,3 +13,28 @@
   .hero-background.is-transparent {
     opacity: 0.8;
   }
+
+  .audi-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .audi-content {
+    margin: 100px;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .audi-image {
+    flex: 1;
+    padding: 20px;
+    margin: 10px; 
+  }
+  
+  .audi-image img {
+    width: 70%;
+  }
+  
+  
