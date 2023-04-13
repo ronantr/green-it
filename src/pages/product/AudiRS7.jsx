@@ -134,7 +134,7 @@ export default function AudiRS7() {
               </p>
             </div>
             <div class="column is-8">
-              <img src="/images/q3_color.webp" alt="Your image" />
+              <img src="/images/image.png" alt="Your image" />
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function AudiRS7() {
             <div class="column is-8">
               <video autoplay loop muted>
                 <source src="/videos/Volant_audi_q3.mp4" type="video/mp4" />
-                <img src="fallback.jpg" alt="Fallback image" />
+                <img src="fallback.avif" alt="Fallback image" />
               </video>
             </div>
             <div class="column is-4 ">
@@ -168,7 +168,7 @@ export default function AudiRS7() {
       >
         <div>
           <img
-            src="/images/Q3_phare.webp"
+            src="/images/Q3_phare.avif"
             alt="Your image"
             style={{
               "max-height": "600px",

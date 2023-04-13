@@ -45,7 +45,7 @@ export default function Footer() {
                   style={{ border: 0 }}
                 >
                   <img
-                    src="/src/assets/images/facebook.png"
+                    src="/images/facebook.png"
                     alt="Facebook"
                     style={{ width: "40px" }}
                   />
@@ -58,7 +58,7 @@ export default function Footer() {
                   style={{ border: 0 }}
                 >
                   <img
-                    src="/src/assets/images/twitter.png"
+                    src="/images/twitter.png"
                     alt="Twitter"
                     style={{ width: "40px" }}
                   />
@@ -71,7 +71,7 @@ export default function Footer() {
                   style={{ border: 0 }}
                 >
                   <img
-                    src="/src/assets/images/instagram.png"
+                    src="/images/instagram.png"
                     alt="Instagram"
                     style={{ width: "40px" }}
                   />
