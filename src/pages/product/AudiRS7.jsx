@@ -3,7 +3,7 @@ import "./style.css";
 import { createEffect, createSignal } from "solid-js";
 
 export default function AudiRS7() {
-    const [color, setColor] = createSignal("black");
+  const [color, setColor] = createSignal("black");
 
   const changeColor = (e) => {
     let color = e.target ? e.target.value : e;
@@ -11,37 +11,42 @@ export default function AudiRS7() {
     setColor(color);
   };
   const options = [{ color: "red" }, { color: "green" }, { color: "pink" }];
-    return (
-        <div>
-            <div class="hero is-fullheight has-background">
-                <img alt="Audi" class="hero-background is-transparent" src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/Q3/6513/1677913413712/front-left-side-47.jpg?imwidth=890&impolicy=resize" />
-                <div class="hero-body">
-                    <div class="container is -flex is-flex-direction-column is-justify-content-space-between  has-text-centered">
-                        <h1 class="title is-1 has-text-white">Audi</h1>
-                        <h2 class="subtitle is-3 has-text-white">Q3</h2>
-                    </div>
-                </div>
+  return (
+    <div>
+      <div class="hero is-fullheight has-background">
+        <img
+          alt="Audi"
+          class="hero-background is-transparent"
+          src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/Q3/6513/1677913413712/front-left-side-47.jpg?imwidth=890&impolicy=resize"
+        />
+        <div class="hero-body">
+          <div class="container is -flex is-flex-direction-column is-justify-content-space-between  has-text-centered">
+            <h1 class="title is-1 has-text-white">Audi</h1>
+            <h2 class="subtitle is-3 has-text-white">Q3</h2>
+          </div>
+        </div>
 
-                <div class="container is-flex is-flex-direction-row is-align-items-end has-text-centered p-3 has-text-white" style={{ marginBottom: '10px' }}>
-                    
-                    <div class="statistic mx-6">
-                        <div class="title is-4 has-text-white">190 ch</div>
-                        <div class="title is-7 has-text-white">Puissance</div>
-                    </div>
-                    <div class="statistic mx-6">
-                        <div class="title is-4 has-text-white">7,4 s</div>
-                        <div class="title is-7 has-text-white">0 à 100km/h</div>
-                    </div>
-                    <div class="statistic mx-6">
-                        <div class="title is-4 has-text-white">220 km/h</div>
-                        <div class="title is-7 has-text-white">Vitesse maximale</div>
-                    </div>
-                </div>
+        <div
+          class="container is-flex is-flex-direction-row is-align-items-end has-text-centered p-3 has-text-white"
+          style={{ marginBottom: "10px" }}
+        >
+          <div class="statistic mx-6">
+            <div class="title is-4 has-text-white">190 ch</div>
+            <div class="title is-7 has-text-white">Puissance</div>
+          </div>
+          <div class="statistic mx-6">
+            <div class="title is-4 has-text-white">7,4 s</div>
+            <div class="title is-7 has-text-white">0 à 100km/h</div>
+          </div>
+          <div class="statistic mx-6">
+            <div class="title is-4 has-text-white">220 km/h</div>
+            <div class="title is-7 has-text-white">Vitesse maximale</div>
+          </div>
+        </div>
+      </div>
 
-            </div>
-
-             {/* --------------------------------------------- */}
-      <div class="container my-4">
+      {/* --------------------------------------------- */}
+      <div class="hero is-fullheight">
         <div class="feature-wrap">
           <h2 class="car-color-picker">
             CHOOSE A COLOR:
@@ -89,7 +94,15 @@ export default function AudiRS7() {
                   Le SUV Compact familial
                 </h2>
                 <p class="has-text-white">
-                Une calandre Singleframe octogonale, des ailes musclées, des optiques de phares affûtées... le SUV Compact Audi s’affirme avec une deuxième génération au design audacieux. A l’intérieur, une véritable révolution s’opère avec une armada technologique : tableau de bord digital, écran tactile, commande vocale naturelle, aides à la conduite... Plus dynamique que sa devancière, l’Audi Q3 devient aussi plus familiale avec une plus grande habitabilité et un volume de coffre plus généreux.
+                  Une calandre Singleframe octogonale, des ailes musclées, des
+                  optiques de phares affûtées... le SUV Compact Audi s’affirme
+                  avec une deuxième génération au design audacieux. A
+                  l’intérieur, une véritable révolution s’opère avec une armada
+                  technologique : tableau de bord digital, écran tactile,
+                  commande vocale naturelle, aides à la conduite... Plus
+                  dynamique que sa devancière, l’Audi Q3 devient aussi plus
+                  familiale avec une plus grande habitabilité et un volume de
+                  coffre plus généreux.
                 </p>
               </div>
             </div>
@@ -97,8 +110,6 @@ export default function AudiRS7() {
         </div>
       </div>
       {/* ------------------ */}
-        </div>
-
-    );
-
+    </div>
+  );
 }
