@@ -64,7 +64,7 @@ export default function Product() {
           </div>
           <div class="statistic mx-6">
             <div class="title is-4 has-text-white">
-              <CountUp countTo={100} /> s
+              <CountUp countTo={5} /> s
             </div>
             <div class="is-size-6 has-text-white has-text-weight-bold">
               0 à 100km/h

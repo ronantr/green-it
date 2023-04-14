@@ -4,8 +4,8 @@ export default function Confirmation() {
       <div
         class="container"
         style={{
-          "padding-top": "50px",
-          "padding-bottom": "50px",
+          "padding-top": "25%",
+          "padding-bottom": "25%",
           "margin-top": "50px",
         }}
       >

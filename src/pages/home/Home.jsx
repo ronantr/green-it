@@ -163,9 +163,9 @@ function Home() {
                     <h3 className="title is-3 has-text-white is-relative">
                       Audi A1
                     </h3>
-                    <button className="button is-primary is-inverted is-outlined">
-                      Configurer
-                    </button>
+                    <a href="/confirmation" className="button is-primary is-inverted is-outlined">
+                      Réserver
+                    </a>
                   </div>
                 </div>
               </div>
@@ -196,9 +196,9 @@ function Home() {
                     <h3 className="title is-3 has-text-white is-relative">
                       Audi A3
                     </h3>
-                    <button className="button is-primary is-inverted is-outlined">
-                      Configurer
-                    </button>
+                    <a href="/confirmation" className="button is-primary is-inverted is-outlined">
+                      Réserver
+                    </a>
                   </div>
                 </div>
               </div>
@@ -231,9 +231,9 @@ function Home() {
                       Audi A8
                     </h3>
 
-                    <button className="button is-primary is-inverted is-outlined">
-                      Configurer
-                    </button>
+                    <a href="/confirmation" className="button is-primary is-inverted is-outlined">
+                      Réserver
+                    </a>
                   </div>
                 </div>
               </div>
