@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Confirmation from "./pages/Confirmation";
 
-import AboutUs from "./pages/about/AboutUs";
+import AboutUs from "./pages/aboutus/AboutUs";
 function App() {
   return (
     <>

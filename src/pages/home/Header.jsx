@@ -4,7 +4,7 @@ export default function Header() {
       <img
         alt="Audi"
         class="hero"
-        src="./src/assets/images/2022-Audi-RS-E-Tron-GT-001-2160-scaled.webp"
+        src="/images/audi-e-tron-gt.jpg"
       />
       <div class="hero">
         <div class="container is-flex is-flex-direction-column is-justify-content-space-between has-text-centered

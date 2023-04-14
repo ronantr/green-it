@@ -6,13 +6,11 @@ export default function Footer() {
           <div class="column is-one-third">
             <p class="subtitle is-5 has-text-weight-bold has-text-white">Nous contacter</p>
             <p class="is-size-6">
-              123 rue principale
+              11 avenue de Boursonne,
               <br />
-              Ville, Pays 12345
+              02600 Villers-Cotterêts, France
               <br />
-              Téléphone : (555) 555-1234
-              <br />
-              Email : info@audi.com
+              Téléphone : 09 69 36 86 12
             </p>
           </div>
           <div class="column is-one-third">
@@ -23,15 +21,6 @@ export default function Footer() {
               </li>
               <li>
                 <a href="/aboutus">À propos de nous</a>
-              </li>
-              <li>
-                <a href="#">Modèles</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Nous contacter</a>
               </li>
             </ul>
           </div>
