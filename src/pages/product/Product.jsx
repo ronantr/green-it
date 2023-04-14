@@ -145,7 +145,7 @@ export default function Product() {
               <picture id="Audi">
                 <source
                   media="(max-width: 633px)"
-                  srcset="/images/q3_color_mobile.png"
+                  srcset="/images/q3_color_mobile.webp"
                 />
                 {/* <source
                   media="(max-width: 833px)"
@@ -163,7 +163,7 @@ export default function Product() {
                   media="(min-width: 1134px)"
                   srcset="/images/q3_color_1.avif"
                 /> */}
-                <img src="/images/q3_color.png" alt="Your image" />
+                <img src="/images/q3_color.webp" alt="Your image" />
               </picture>
             </div>
           </div>
@@ -180,7 +180,7 @@ export default function Product() {
             </div>
             <div class="column is-4 ">
               <h2 class="title is-2 has-text-left has-text-white">
-                Un écrin digital et connecté
+                Un écran digital et connecté
               </h2>
               <p className="has-text-white">
                 Le SUV Compact Audi intègre un écran MM en lieu et place du
@@ -191,6 +191,46 @@ export default function Product() {
           </div>
         </div>
       </div>
+
+      <section
+        class="section is-fullheight has-background-black pt-6 pb-6 "
+        style={{ "padding-left": 0, "padding-right": 0 }}
+      >
+        <div>
+          <img
+            src="/images/Q3_phare.avif"
+            alt="Your image"
+            style={{
+              "max-height": "600px",
+              width: "100%",
+              height: "auto",
+              display: "block",
+              margin: "0 auto",
+            }}
+          />
+        </div>
+        <div class="container has-text-centered mt-4">
+          <div class="columns is-vcentered">
+            <div class="column has-text-centered">
+              <h2 class="title is-2 has-text-white ">
+                Un éclairage intelligent
+              </h2>
+              <p class="has-text-white">
+                Les phares de la nouvelle Audi Q3 sont disponibles en trois
+                versions différentes et reposent tous sur la technologie LED. Au
+                sommet de la gamme, les projecteurs Audi Matrix LED (en option)
+                éclairent la route de façon intelligente et règlent le faisceau
+                lumineux en fonction des conditions de conduite, sans pour
+                autant éblouir les autres conducteurs. Dans des conditions de
+                conduite difficiles, comme par exemple sur une route de montagne
+                non éclairée, le faisceau lumineux est dirigé à l’intérieur de
+                la courbe pour mieux évaluer les virages et maintenir votre
+                trajectoire.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

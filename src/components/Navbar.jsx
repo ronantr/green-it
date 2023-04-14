@@ -34,7 +34,7 @@ export default function Navbar() {
     >
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
-          <img src="/images/logo.svg" width="112" height="28" alt="Audi" />
+          <img src="/images/Audi-Logo.svg" width="112" height="28" alt="Audi" />
         </a>
         <a
           role="button"
@@ -53,11 +53,8 @@ export default function Navbar() {
           <A className="navbar-item" href="/audi-q3">
             Audi Q3
           </A>
-          <A className="navbar-item" href="/services">
-            Services
-          </A>
-          <A className="navbar-item" href="/contact">
-            Contact Us
+          <A className="navbar-item" href="/aboutus">
+            A propos de nous
           </A>
         </div>
       </div>
