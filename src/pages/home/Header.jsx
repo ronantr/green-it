@@ -8,7 +8,7 @@ export default function Header() {
         <img alt="Audi" src="/images/audi-home.avif" />
       </picture>
       <div>
-        <h1 class="title is-4 is-size-5-desktop is-size-7-mobile has-text-white" style={{ "margin-top": "-70px" }}>
+        <h1 class="title is-4 is-size-5-desktop is-size-7-mobile has-text-white" style={{ "margin-top": "-70px", "margin-right": "10px" }}>
           Design élégant, performances et une technologie de pointe, voici Audi.
         </h1>
       </div>
