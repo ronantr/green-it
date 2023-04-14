@@ -33,21 +33,16 @@ export default function Product() {
     <>
       <div class="hero is-fullheight has-background">
         <picture id="Audi">
-          <source media="(max-width: 633px)"
-          srcset="/images/q3_header.avif"/>
-          <source media="(max-width: 833px)"
-          srcset="/images/q3_header.avif"/>
-    <source media="(max-width: 1033px)"
-    srcset="/images/q3_header.avif"/>
-    <source media="(max-width: 1133px)"
-    srcset="/images/q3_header.avif"/>
-    <source media="(min-width: 1134px)"
-    srcset="/images/q3_header.avif"/>
-    <img
-    alt="Audi"
-    class="hero-background is-transparent"
-    src="/images/q3_header.avif"/>
-</picture>
+          <source
+            media="(max-width: 633px)"
+            srcset="/images/q3_header_mobile.webp"
+          />
+          <img
+            alt="Audi"
+            class="hero-background is-transparent"
+            src="/images/q3_header.webp"
+          />
+        </picture>
         <div class="hero-body">
           <div class="container is -flex is-flex-direction-column is-justify-content-space-between  has-text-centered">
             <h1 class="title is-1 has-text-white">Audi</h1>
@@ -147,19 +142,29 @@ export default function Product() {
               </p>
             </div>
             <div class="column is-8">
-            <picture id="Audi">
-              <source media="(max-width: 633px)"
-              srcset="/images/q3_color_4.avif"/>
-              <source media="(max-width: 833px)"
-              srcset="/images/q3_color_4.avif"/>
-              <source media="(max-width: 1033px)"
-              srcset="/images/q3_color_1.avif"/>
-              <source media="(max-width: 1133px)"
-              srcset="/images/q3_color_1.avif"/>
-              <source media="(min-width: 1134px)"
-              srcset="/images/q3_color_1.avif"/>
-              <img src="/images/q3_color_1.avif" alt="Your image" />
-            </picture>
+              <picture id="Audi">
+                <source
+                  media="(max-width: 633px)"
+                  srcset="/images/q3_color_mobile.png"
+                />
+                {/* <source
+                  media="(max-width: 833px)"
+                  srcset="/images/q3_color_4.avif"
+                />
+                <source
+                  media="(max-width: 1033px)"
+                  srcset="/images/q3_color_1.avif"
+                />
+                <source
+                  media="(max-width: 1133px)"
+                  srcset="/images/q3_color_1.avif"
+                />
+                <source
+                  media="(min-width: 1134px)"
+                  srcset="/images/q3_color_1.avif"
+                /> */}
+                <img src="/images/q3_color.png" alt="Your image" />
+              </picture>
             </div>
           </div>
         </div>
