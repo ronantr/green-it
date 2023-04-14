@@ -34,7 +34,7 @@ export default function Navbar() {
     >
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
-          <img src="/images/Audi-Logo.svg" width="112" height="28" alt="Audi" />
+          <img src="/images/Audi_Rings_bl-RGB.svg" width="80" height="28" alt="Audi" />
         </a>
         <a
           role="button"

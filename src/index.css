@@ -11,8 +11,8 @@ code {
 @font-face {
   font-family: "AudiTypeVF";
   src: local("AudiTypeVF"),
-  url("/fonts/AudiTypeVF.woff2") format("woff2"),
-  url("/fonts/AudiTypeVF.ttf") format("truetype");
+  url("/fonts/auditypevf-2.woff2") format("woff2"),
+  url("/fonts/auditypevf.woff") format("woff");
   }
   /*
 
