@@ -22,25 +22,25 @@ export default function ReservationModal({ handleClose }) {
           <div class="field">
             <label class="label">Nom</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Text input" />
+              <input class="input" type="text" />
             </div>
           </div>
           <div class="field">
             <label class="label">Prénom</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Text input" />
+              <input class="input" type="text"  />
             </div>
           </div>
           <div class="field">
             <label class="label">Email</label>
             <div class="control">
-              <input class="input" type="email" placeholder="Email input" />
+              <input class="input" type="email"  />
             </div>
           </div>
           <div class="field">
             <label class="label">Téléphone</label>
             <div class="control">
-              <input class="input" type="tel" placeholder="Telephone input" />
+              <input class="input" type="tel" />
             </div>
           </div>
         </section>
