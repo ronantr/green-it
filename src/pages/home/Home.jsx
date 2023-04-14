@@ -23,7 +23,7 @@ function Home() {
               </p>
             </div>
             <div class="column is-6">
-              <img src="/images/volant.avif" alt="Your image" />
+              <img src="/images/volant.avif" alt="Your image" loading="lazy" />
             </div>
           </div>
         </div>
@@ -33,7 +33,11 @@ function Home() {
         <div class="container">
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <img src="/images/Responsabilite-Sociale.avif" alt="Your image" />
+              <img
+                src="/images/Responsabilite-Sociale.avif"
+                alt="Your image"
+                loading="lazy"
+              />
             </div>
             <div class="column is-6 has-text-centered">
               <h2 class="title is-2">
@@ -126,12 +130,17 @@ function Home() {
                       src="/images/A1BACK.avif"
                       alt="Audi A1"
                       style={{ "max-height": "600px", width: "auto" }}
+                      loading="lazy"
                     />
                   </figure>
                 </div>
                 <div className="small-image">
                   <figure className="image">
-                    <img src="/images/A1side.avif" alt="Small Image" />
+                    <img
+                      src="/images/A1side.avif"
+                      alt="Small Image"
+                      loading="lazy"
+                    />
                   </figure>
                 </div>
                 <div className="card-content" style={{ "margin-top": "-40px" }}>
@@ -158,7 +167,11 @@ function Home() {
                   </figure>
                   <div className="small-image">
                     <figure className="image">
-                      <img src="/images/A3side.avif" alt="Small Image" />
+                      <img
+                        src="/images/A3side.avif"
+                        alt="Small Image"
+                        loading="lazy"
+                      />
                     </figure>
                   </div>
                 </div>
@@ -182,11 +195,16 @@ function Home() {
                       src="/images/inconueback.avif"
                       alt="Audi A8"
                       style={{ "max-height": "600px", width: "auto" }}
+                      loading="lazy"
                     />
                   </figure>
                   <div className="small-image">
                     <figure className="image">
-                      <img src="/images/sideinconnue.avif" alt="Small Image" />
+                      <img
+                        src="/images/sideinconnue.avif"
+                        alt="Small Image"
+                        loading="lazy"
+                      />
                     </figure>
                   </div>
                 </div>

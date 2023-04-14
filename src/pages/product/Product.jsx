@@ -128,7 +128,7 @@ export default function Product() {
           {isModalOpen() && <ReservationModal handleClose={handleCloseModal} />}
         </div>
       </div>
-      <div class="hero is-fullheight has-background">
+      <div class="hero has-background">
         <div class="container mt-4 mb-4">
           <div class="columns is-vcentered">
             <div class="column is-4 ">
@@ -163,7 +163,11 @@ export default function Product() {
                   media="(min-width: 1134px)"
                   srcset="/images/q3_color_1.avif"
                 /> */}
-                <img src="/images/q3_color.webp" alt="Your image" />
+                <img
+                  src="/images/q3_color.webp"
+                  alt="Your image"
+                  loading="lazy"
+                />
               </picture>
             </div>
           </div>
@@ -173,9 +177,11 @@ export default function Product() {
         <div class="container mt-4 mb-4">
           <div class="columns is-vcentered">
             <div class="column is-8">
-              <picture id="Audi">
-                <img src="/images/audi-cockpit.webp" alt="Your image" />
-              </picture>
+              <img
+                src="/images/audi-cockpit.webp"
+                alt="Your image"
+                loading="lazy"
+              />
             </div>
             <div class="column is-4 ">
               <h2 class="title is-2 has-text-left has-text-white">
@@ -192,15 +198,17 @@ export default function Product() {
       </div>
 
       <section
-        class="section is-fullheight has-background-black pt-6 pb-6 "
+        class="section has-background-black pt-6 pb-6 "
         style={{ "padding-left": 0, "padding-right": 0 }}
       >
         <div>
           <img
             src="/images/Q3_phare.avif"
-            alt="Your image"
+            alt="Audi Phare"
+            loading="lazy"
             style={{
-              "max-height": "600px",
+              "max-height": "550px",
+              "max-width": "1800px",
               width: "100%",
               height: "auto",
               display: "block",
