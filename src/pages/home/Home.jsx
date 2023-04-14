@@ -23,7 +23,12 @@ function Home() {
               </p>
             </div>
             <div class="column is-6">
-              <img src="/images/volant.avif" alt="Your image" loading="lazy" />
+              <img
+                src="/images/volant.avif"
+                alt="Your image"
+                loading="lazy"
+                class="optimized-image-size"
+              />
             </div>
           </div>
         </div>
@@ -37,6 +42,7 @@ function Home() {
                 src="/images/Responsabilite-Sociale.avif"
                 alt="Your image"
                 loading="lazy"
+                class="optimized-image-size"
               />
             </div>
             <div class="column is-6 has-text-centered">
@@ -69,7 +75,11 @@ function Home() {
               </p>
             </div>
             <div class="column is-6">
-              <img src="/images/recharge.avif" alt="Your image" />
+              <img
+                src="/images/recharge.avif"
+                alt="Your image"
+                class="optimized-image-size"
+              />
             </div>
           </div>
         </div>
@@ -77,7 +87,11 @@ function Home() {
         <div class="container mt-4 mb-4">
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <img src="/images/myAudi.avif" alt="Your image" />
+              <img
+                src="/images/myAudi.avif"
+                alt="Your image"
+                class="optimized-image-size"
+              />
             </div>
             <div class="column is-6">
               <h2 class="title is-2 has-text-left has-text-white">
@@ -140,6 +154,7 @@ function Home() {
                       src="/images/A1side.avif"
                       alt="Small Image"
                       loading="lazy"
+                      class="car-card-image"
                     />
                   </figure>
                 </div>
@@ -171,6 +186,7 @@ function Home() {
                         src="/images/A3side.avif"
                         alt="Small Image"
                         loading="lazy"
+                        class="car-card-image"
                       />
                     </figure>
                   </div>
@@ -204,6 +220,7 @@ function Home() {
                         src="/images/sideinconnue.avif"
                         alt="Small Image"
                         loading="lazy"
+                        class="car-card-image"
                       />
                     </figure>
                   </div>

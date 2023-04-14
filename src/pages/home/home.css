@@ -45,3 +45,16 @@
     text-decoration: none;
   }
   
+
+  /* Image */
+  img.optimized-image-size{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+  }
+
+  .car-card-image{
+    width: 100%;
+    height: auto;
+    max-width: 420;
+  }
