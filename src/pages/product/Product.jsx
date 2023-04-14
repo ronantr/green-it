@@ -173,10 +173,9 @@ export default function Product() {
         <div class="container mt-4 mb-4">
           <div class="columns is-vcentered">
             <div class="column is-8">
-              <video autoplay loop muted>
-                <source src="/videos/Volant_audi_q3.mp4" type="video/mp4" />
-                <img src="images/fallback.avif" alt="Fallback image" />
-              </video>
+              <picture id="Audi">
+                <img src="/images/audi-cockpit.webp" alt="Your image" />
+              </picture>
             </div>
             <div class="column is-4 ">
               <h2 class="title is-2 has-text-left has-text-white">
