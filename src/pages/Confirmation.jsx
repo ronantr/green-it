@@ -5,7 +5,7 @@ export default function Confirmation() {
         class="container"
         style={{
           "padding-top": "25%",
-          "padding-bottom": "25%",
+          "padding-bottom": "30%",
           "margin-top": "50px",
         }}
       >
