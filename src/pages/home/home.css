@@ -56,5 +56,5 @@
   .car-card-image{
     width: 100% !important;
     height: auto !important;
-    max-width: 420 !important;
+    max-width: 420px !important;
   }

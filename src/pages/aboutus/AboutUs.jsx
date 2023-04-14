@@ -1,3 +1,4 @@
+import "AboutUs.css";
 export default function AboutUs() {
   return (
     <>
@@ -5,7 +6,11 @@ export default function AboutUs() {
         <div class="container">
           <div class="columns is-vcentered">
             <div class="column is-6">
-              <img src="/images/audi-history.avif" alt="Audi-history" />
+              <img
+                src="/images/audi-history.avif"
+                alt="Audi-history"
+                class="optimized-image-size"
+              />
             </div>
             <div class="column is-6 has-text-centered">
               <h2 class="title is-2">Historique de la marque</h2>
@@ -38,6 +43,7 @@ export default function AboutUs() {
                 src="/images/audiMember.avif"
                 alt="Audi-member"
                 loading="lazy"
+                class="optimized-image-size"
               />
             </div>
           </div>
@@ -53,6 +59,7 @@ export default function AboutUs() {
                   src="/images/audi-eolienne.avif"
                   alt="Audi eco"
                   loading="lazy"
+                  class="optimized-image-size"
                 />
               </div>
               <div class="column is-6">
@@ -91,6 +98,7 @@ export default function AboutUs() {
                   src="/images/audi-contact.avif"
                   alt="Audi-contact"
                   loading="lazy"
+                  class="optimized-image-size"
                 />
               </div>
             </div>

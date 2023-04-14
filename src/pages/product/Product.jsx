@@ -181,6 +181,7 @@ export default function Product() {
                 src="/images/audi-cockpit.webp"
                 alt="Your image"
                 loading="lazy"
+                style={{ "max-width": "600px", width: "100%", height: "auto" }}
               />
             </div>
             <div class="column is-4 ">
