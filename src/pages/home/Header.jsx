@@ -3,8 +3,8 @@ export default function Header() {
     <div class="hero mb-6">
       <picture id="Audi">
         <source media="(max-width: 700px)"
-          srcset="/images/audi-e-tron-gt-mobile.jpg" />
-        <img alt="Audi" src="/images/audi-e-tron-gt.jpg" />
+          srcset="/images/audi-e-tron-gt-mobile.avif" />
+        <img alt="Audi" src="/images/audi-e-tron-gt.avif" />
       </picture>
       <div
         class="container is-flex is-flex-direction-column is-justify-content-space-between has-text-centered
