@@ -134,7 +134,7 @@ function Home() {
                     <img src="/images/A1side.avif" alt="Small Image" />
                   </figure>
                 </div>
-                <div className="card-content">
+                <div className="card-content" style={{ "margin-top": "-40px" }}>
                   <div className="content">
                     <h3 className="title is-3 has-text-white is-relative">
                       Audi A1
@@ -162,7 +162,7 @@ function Home() {
                     </figure>
                   </div>
                 </div>
-                <div className="card-content">
+                <div className="card-content" style={{ "margin-top": "-40px" }}>
                   <div className="content">
                     <h3 className="title is-3 has-text-white is-relative">
                       Audi A3
@@ -190,7 +190,7 @@ function Home() {
                     </figure>
                   </div>
                 </div>
-                <div className="card-content">
+                <div className="card-content" style={{ "margin-top": "-40px" }}>
                   <div className="content">
                     <h3 className="title is-3 has-text-white is-relative">
                       Audi A8
