@@ -56,7 +56,7 @@ export default function Product() {
         >
           <div class="statistic mx-6">
             <div class="title is-4 has-text-white">
-              <CountUp countTo={190} />
+              <CountUp countTo={190} /> ch
             </div>
             <div class="is-size-6 has-text-white has-text-weight-bold">
               Puissance
@@ -72,7 +72,7 @@ export default function Product() {
           </div>
           <div class="statistic mx-6">
             <div class="title is-4 has-text-white">
-              <CountUp countTo={220} />
+              <CountUp countTo={220} /> km/h
             </div>
             <div class="is-size-6 has-text-white has-text-weight-bold">
               Vitesse maximale
